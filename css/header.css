@@ -1,0 +1,123 @@
+nav {
+    width:100%;
+    top:0%;
+    position: fixed;
+    margin:auto;
+    height:13%;
+    z-index:100;
+    height:100px;
+    color:#2C262F;
+    background-color:#FDFDFC;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+nav li {
+    width:33%;
+    height:90px;
+    margin:0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    float:left;
+    list-style: none;
+}
+nav li .titles {
+    float:left;
+    position: relative;
+    width:85%;
+}
+.logo_nav {
+    width:120px;
+    height:90px;
+    background-image:url(../img/logo.png);
+    background-size:cover;
+    position: absolute;
+    top:5px;
+    left:3%;
+}
+.username_cont {
+    width:500px;
+    margin-top:40px;
+    height:60px;
+    position: absolute;
+    z-index: 10000;
+    right:100px;
+    z-index:100000;
+}
+.username_cont:hover {
+    cursor: pointer;
+}
+.usericondark {
+    margin-top:15px;
+    height:25px;
+    width:15%;
+    left:10px;
+    background-image:url(../img/icons/profil_grey.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    float:left;
+    position: relative;
+}
+.store_icon {
+    margin-top:15px;
+    height:40px;
+    width:15%;
+    left:10px;
+    background-image:url(../img/icons/varer.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    float:left;
+    position: relative;
+}
+.infoicon {
+    margin-top:15px;
+    height:40px;
+    width:15%;
+    left:10px;
+    background-image:url(../img/icons/informasjon.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    float:left;
+    position: relative;
+}
+.username:hover .logout{
+    display:block;
+}
+.logout {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 2px 16px;
+    z-index: 1;
+    top:60px;
+}
+.logouticon {
+    background-image:url(../img/icons/logouticon.png);
+    padding-top:15%;
+    width:15%;
+    background-size:cover;
+    margin-top:20px;
+    float:left;
+    position: relative;
+}
+nav a:hover .hoverover {
+    width:70%;
+    transition:all 0.4s ease-in-out;
+}
+.hoverover {
+    height:8px;
+    width:0%;
+    background-color: #FDA42F;
+    position: absolute;
+    left:20px;
+    top:50%;
+    margin-top:-4px;
+    opacity: 0.5;
+    border-radius:3px;
+    transition:all 0.4s ease-in-out;
+    z-index: -1;
+}
